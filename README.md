@@ -40,3 +40,29 @@ python main.py
 Open the VS Code terminal (`Ctrl + `` ` ``) and type:
 ```
 python main.py
+# Railway Ticket Booking System
+
+A modular interactive command-line railway booking system in Python.
+
+## Features
+- Route selection
+- Train type selection
+- Travel class selection
+- Passenger fare calculation
+- Senior citizen discount
+- Baggage penalty
+- Promo code discounts
+- Booking summary receipt
+- Crash-proof input handling
+
+## Modules
+- main.py → orchestrator
+- routes.py → static route/train/class data
+- fare.py → fare calculation logic
+- utils.py → input validation helpers
+- display.py → CLI output formatting
+
+## Run
+```bash
+python main.py
+```
